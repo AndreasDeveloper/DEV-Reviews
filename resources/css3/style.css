@@ -124,7 +124,7 @@ input[type=submit] {
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
-    border-radius: 200ox;
+    border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -194,4 +194,6 @@ header {
     margin-bottom: 30px;
 }
 
-
+/* ------------------------------------------------------------------- */
+/* NEW RELEASES */
+/* ------------------------------------------------------------------- */
