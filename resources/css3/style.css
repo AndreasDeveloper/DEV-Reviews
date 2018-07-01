@@ -197,3 +197,166 @@ header {
 /* ------------------------------------------------------------------- */
 /* NEW RELEASES */
 /* ------------------------------------------------------------------- */
+
+.section-new-release {
+    padding: 0;
+}
+
+.new-release {
+    list-style: none;
+    width: 100%;
+}
+
+.new-release li {   /* BASE SETUP FOR 4/4 LIST */
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.release-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.new-release img {
+    opacity: 0.4;
+    width: 100%;
+    height: auto;
+    transform: scale(1.28);
+    transition: opacity 0.5s, transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+/* ------- BUTTONS IN RELEASES SECTIONS ------- */
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5,
+.btn6,
+.btn7,
+.btn8,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    position: absolute;
+    width: 10%;
+    height: 6%;
+    font-size: 65%;
+    text-align: center;
+}
+
+.btn1 {
+    top: 218%;
+    left: 6%;
+    padding-bottom: 35px;
+}
+
+.btn2 {
+    top: 218%;
+    left: 32%;
+    padding-bottom: 35px;
+}
+
+.btn3 {
+    top: 218%;
+    left: 56%;
+    padding-bottom: 31px;
+    padding-top: 15px;
+}
+
+.btn4 {
+    top: 218%;
+    left: 81%;
+    padding-bottom: 46px;
+}
+
+.btn5 {
+    top: 247%;
+    left: 5%;
+}
+
+.btn6 {
+    top: 245%;
+    left: 32%;
+    padding-bottom: 36px;
+}
+
+.btn7 {
+    top: 244%;
+    left: 56.7%;
+    padding-bottom: 46px;
+}
+
+.btn8 {
+    top: 245%;
+    left: 82%;
+    padding-bottom: 37px;
+}
+
+.btn1:link,
+.btn1:visited,
+.btn2:link,
+.btn2:visited,
+.btn3:link,
+.btn3:visited,
+.btn4:link,
+.btn4:visited,
+.btn5:link,
+.btn5:visited,
+.btn6:link,
+.btn6:visited,
+.btn7:link,
+.btn7:visited,
+.btn8:link,
+.btn8:visited  {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn1:hover,
+.btn1:active,
+.btn2:hover,
+.btn2:active,
+.btn3:hover,
+.btn3:active,
+.btn4:hover,
+.btn4:active,
+.btn5:hover,
+.btn5:active,
+.btn6:hover,
+.btn6:active,
+.btn7:hover,
+.btn7:active,
+.btn8:hover,
+.btn8:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #7a3a95;
+}
+
+.btn1:hover,
+.btn1:active
+.btn2:hover,
+.btn2:active,
+.btn3:hover,
+.btn3:active,
+.btn4:hover,
+.btn4:active,
+.btn5:hover,
+.btn5:active,
+.btn6:hover,
+.btn6:active,
+.btn7:hover,
+.btn7:active,
+.btn8:hover,
+.btn8:active {
+    border: 1px solid #7a3a95;
+    color: #fff;
+}
