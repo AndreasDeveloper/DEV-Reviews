@@ -255,49 +255,49 @@ input[type=submit] {
 }
 
 .btn1 {
-    top: 237%;
+    top: 240%;
     left: 6%;
     padding-bottom: 35px;
 }
 
 .btn2 {
-    top: 236%;
+    top: 240%;
     left: 32%;
     padding-bottom: 46px;
 }
 
 .btn3 {
-    top: 237%;
+    top: 240%;
     left: 57.3%;
     padding-bottom: 31px;
     padding-top: 15px;
 }
 
 .btn4 {
-    top: 237%;
+    top: 240%;
     left: 83.3%;
     padding-bottom: 46px;
 }
 
 .btn5 {
-    top: 266%;
+    top: 270.5%;
     left: 5%;
 }
 
 .btn6 {
-    top: 265%;
+    top: 268%;
     left: 32%;
     padding-bottom: 46px;
 }
 
 .btn7 {
-    top: 265%;
+    top: 268%;
     left: 57.6%;
     padding-bottom: 46px;
 }
 
 .btn8 {
-    top: 265%;
+    top: 268%;
     left: 83%;
     padding-bottom: 37px;
 }
@@ -374,7 +374,8 @@ input[type=submit]:active {
 }
 
 .section-reviews h2 {
-   margin-left: 658px;
+    margin-left: 658px;
+    margin-top: 15%;
     margin-bottom: 20px;
     text-align: center;
     font-size: 200%;
@@ -421,19 +422,69 @@ input[type=submit]:active {
 }
 
 .review-img .div2 {
-    position: absolute;
-    top: 20px;
-    right: 52%;
+    position: relative;
+    top: 5px;
+    left: 3%;
+}
+
+.section-reviews .btn {
+    margin-top: 30px;
+}
+
+/* ------------------------------------------------------------------- */
+/* PREVIEWS */
+/* ------------------------------------------------------------------- */
+
+.section-previews {
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section-previews h2 {
+   margin-right: 50%;
+}
+
+.section-previews h3 {
+    color: #7a3a95;
+}
+
+.section-previews h4 {
+    padding-bottom: 15px;
+}
+
+.section-previews .preview-text {
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+
+.section-previews img {
+    float: right;
+    width: 50%;
+}
+
+.section-previews p {
+    max-width: 70%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.section-previews .btn {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* ------------------------------------------------------------------- */
 /* ANIMATIONS */
 /* ------------------------------------------------------------------- */
 
-.js--wp-1 {
+.js--wp-1,
+.js--wp-2 {
     opacity: 1;
 }
 
-.js--wp-1 .animated {
+.js--wp-1 .animated,
+.js--wp-2 .animated {
     opacity: 0;
 }

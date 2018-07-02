@@ -48,6 +48,17 @@ $(document).ready(function() {
          offset: '100%'
     });
 
+    $('.js--wp-2').waypoint(function(direction) {
+        $('.js--wp-2').addClass('animated slideInRight');
+    }, {
+         offset: '100%'
+    });
+
+     $('.js--wp-3').waypoint(function(direction) {
+        $('.js--wp-3').addClass('animated slideInLeft');
+    }, {
+         offset: '100%'
+    });
 
 
 
