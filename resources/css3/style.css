@@ -438,6 +438,7 @@ input[type=submit]:active {
 
 .section-previews {
     padding: 0;
+    margin: 0;
     width: 100%;
     overflow: hidden;
     background-color: #e3e3e3;
@@ -622,51 +623,7 @@ input[type=submit]:active {
     z-index: 3;
 }
 
-/* ------------------------------------------------------------------- */
-/* LOGOS */
-/* ------------------------------------------------------------------- */
-/*
-.logos {
-    overflow: hidden;
-    max-width: 1800px;
-}
 
-.logos .al {
-    float: left;
-    width: 90%;
-    margin-top: 6%;
-}
-
-.logos .ta {
-    width: 60%;
-    margin-top: 0%;
-    margin-left: 20%;
-}
-
-.logos .ga {
-    width: 55%;
-    margin-top: 5.5%;
-    margin-left: 35%;
-}
-
-.logo .wa {
-    width: 25%;
-    margin-top: 2%;
-    margin-left: 76%;
-}
-
-.logo .ba {
-    width: 16%;
-    margin-top: -35%;
-    margin-left: 5%;
-}
-
-.logo .sa {
-    width: 10%;
-    margin-left: 23.5%;
-    margin-top: -10%;
-}
-*/
 /* ------------------------------------------------------------------- */
 /* ANIMATIONS */
 /* ------------------------------------------------------------------- */
