@@ -42,26 +42,53 @@ $(document).ready(function() {
 
     /* ANIMATIONS ON SCROLL */
 
+    /*---------------------------------------- */           /*---------------------------------------- */
     $('.js--wp-1').waypoint(function(direction) {
         $('.js--wp-1').addClass('animated slideInLeft');
-    }, {
+    }, {                                                    /* FEATURES / ABOUT US Section Animation */
          offset: '100%'
     });
+    /*---------------------------------------- */           /*---------------------------------------- */
 
+    /*---------------------------------------- */           /*---------------------------------------- */
     $('.js--wp-2').waypoint(function(direction) {
         $('.js--wp-2').addClass('animated slideInRight');
-    }, {
+    }, {                                                    /* REVIEW SECTION IMAGE ANIMATION */
          offset: '100%'
     });
+    /*---------------------------------------- */           /*---------------------------------------- */
 
+    /*---------------------------------------- */           /*---------------------------------------- */
      $('.js--wp-3').waypoint(function(direction) {
         $('.js--wp-3').addClass('animated slideInLeft');
-    }, {
+    }, {                                                    /* PREVIEW SECTION IMAGE ANIMATION */
          offset: '100%'
     });
+    /*---------------------------------------- */           /*---------------------------------------- */
 
+    /*---------------------------------------- */           /*---------------------------------------- */
+     $('.js--wp-4').waypoint(function(direction) {
+        $('.js--wp-4').addClass('animated slideInLeft');
+    }, {                                                     /* COLUMN BEFORE YOU BUY SECTION TEXT ANIMATION */
+         offset: '100%'
+    });
+    /*---------------------------------------- */           /*---------------------------------------- */
 
+    /*---------------------------------------- */           /*---------------------------------------- */
+     $('.js--wp-5').waypoint(function(direction) {
+        $('.js--wp-5').addClass('animated fadeIn');
+    }, {                                                    /* COLUMN GIVEAWAY SECTION TEXT ANIMATION */
+         offset: '100%'
+    });
+    /*---------------------------------------- */           /*---------------------------------------- */
 
+    /*---------------------------------------- */           /*---------------------------------------- */
+     $('.js--wp-6').waypoint(function(direction) {
+        $('.js--wp-6').addClass('animated slideInRight');
+    }, {                                                    /* COLUMN CLUB SECTION TEXT ANIMATION */
+         offset: '100%'
+    });
+    /*---------------------------------------- */           /*---------------------------------------- */
 
 
 

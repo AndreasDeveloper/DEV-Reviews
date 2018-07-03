@@ -478,23 +478,154 @@ input[type=submit]:active {
 }
 
 /* ------------------------------------------------------------------- */
-/* BEFORE YOU BUY */
+/* SECTION MORE FEATURES */
 /* ------------------------------------------------------------------- */
 
-.section-byb {
-    background-image: (linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(images/f2.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/f2.png);
-    background-size: cover;
-    background-position: center;
-    color: #fff;
+/* ------- SECTION MORE FEATURES | BASIC SETUP ------- */
+
+.section-more {
+   width: 100%;
+    overflow: hidden;
+    padding: 0;
+    top: 0;
+    left: 0;
     background-attachment: fixed;
+}
+
+.section-more img {
+    filter: brightness(40%);
+}
+
+.section-more .club-logo {
+    position: absolute;
+    filter: none;
+    width: 20%;
+}
+
+/* ------- SMF | COLUMN 1 ------- */
+
+.section-more .sm1 {
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 295px;
+    margin-top: -50px;
+    font-size: 80%;
+    max-width: 70%;
+    line-height: 2;
     text-align: center;
+    color: #fff;
+    top: 620%;
+    right: 50%;
+}
+
+.section-more .f1 {
+    position: relative;
+    width: 269.5%;
+    right: 100%;
+    float: left;
+}
+
+.feature-m-1 h2 {
+    position: absolute;
+    font-size: 150%;
+    top: 600%;
+    right: 75%;
+    float: left;
+    color: #fff;
+}
+
+.smf-btn1 {
+    position: absolute;
+    top: 667%;
+    right: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* ------- SMF | COLUMN 2 ------- */
+
+.section-more .sm2 {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    max-width: 70%;
+    font-size: 80%;
+    line-height: 2;
+    top: 620%;
+    left: 32%;
+    margin-left: 35px;
+    margin-right: 470px;
+    margin-top: -3.5%;
+    z-index: 3;
+}
+
+.section-more .f2 {
+    position: relative;
+    width: 123.5%;
+    right: 12%;
+    z-index: 2;
+}
+
+.feature-m-2 h2 {
+    position: absolute;
+    top: 600%;
+    left: 43%;
+    font-size: 150%;
+    color: #fff;
+    z-index: 3;
+}
+
+.smf-btn2 {
+    position: absolute;
+    top: 667%;
+    left: 44%;
+    z-index: 3;
+}
+
+/* ------- SMF | COLUMN 3 ------- */
+
+.section-more .sm3 {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    max-width: 70%;
+    font-size: 80%;
+    line-height: 2;
+    top: 620%;
+    margin-left: 80px;
+    margin-right: 35px;
+    margin-top: -3.5%;
+    z-index: 3;
+}
+
+.section-more .f3 {
+    position: relative;
+    width: 269.5%;
+    left: -66%;
+    z-index: 1;
+}
+
+.feature-m-3 h2 {
+    position: absolute;
+    font-size: 150%;
+    float: right;
+    top: 600%;
+    left: 78%;
+    z-index: 3;
+    color: #fff;
+}
+
+.smf-btn3 {
+    position: absolute;
+    top: 667%;
+    left: 79%;
+    z-index: 3;
 }
 
 /* ------------------------------------------------------------------- */
 /* LOGOS */
 /* ------------------------------------------------------------------- */
-
+/*
 .logos {
     overflow: hidden;
     max-width: 1800px;
@@ -535,17 +666,25 @@ input[type=submit]:active {
     margin-left: 23.5%;
     margin-top: -10%;
 }
-
+*/
 /* ------------------------------------------------------------------- */
 /* ANIMATIONS */
 /* ------------------------------------------------------------------- */
 
 .js--wp-1,
-.js--wp-2 {
+.js--wp-2,
+.js--wp-3,
+.js--wp-4,
+.js--wp-5,
+.js--wp-6 {
     opacity: 1;
 }
 
 .js--wp-1 .animated,
-.js--wp-2 .animated {
+.js--wp-2 .animated,
+.js--wp-3 .animated,
+.js--wp-4 .animated,
+.js--wp-5 .animated,
+.js--wp-6 .animated {
     opacity: 0;
 }
