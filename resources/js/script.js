@@ -1,6 +1,19 @@
 $(document).ready(function() {
 
 
+
+
+
+ /* Scroll on Buttons Setup */
+    $('.js--scroll-to-features').click(function () {
+        $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
+    });
+
+    $('.js--scroll-to-titles').click(function () {
+        $('html, body').animate({scrollTop: $('.js--section-new-titles').offset().top}, 1000);
+    });
+
+
 /* SETUP FOR SMOOTH SCROLLING FOR ELEMETS */
     $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -91,6 +104,19 @@ $(document).ready(function() {
     /*---------------------------------------- */           /*---------------------------------------- */
 
 
+
+
+
+    /* Sticky Navigation Setup */
+    $('.js--section-features').waypoint(function(direction) {
+        if (direction == "down") {
+            $('nav').addClass('sticky');
+        } else {
+            $('nav').removeClass('sticky');
+        }
+    }, {
+       offset: '60px;'
+    });
 
 
 
